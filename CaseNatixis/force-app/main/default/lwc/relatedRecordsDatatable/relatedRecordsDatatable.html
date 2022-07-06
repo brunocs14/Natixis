@@ -1,0 +1,15 @@
+<template>
+    <div style="height: 300px;">
+        <lightning-card title="Related Records B and C objects "></lightning-card>
+            <template if:true={recordList}>
+                <lightning-datatable key-field="Id" data={recordList} 
+                class="slds-table slds-table_cell-buffer slds-table_bordered"
+                    show-row-number-column hide-checkbox-column
+                    columns={columns}>
+                </lightning-datatable>
+            </template>
+            <template if:true={error}>
+                {error}
+            </template>        
+    </div>
+</template>

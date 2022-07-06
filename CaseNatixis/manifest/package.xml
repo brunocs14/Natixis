@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>RelatedRecordsTableController</members>
+		<members>RelatedRecordsTableControllerTest</members>
+		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>Object_B__c.Object_A__c</members>
+		<members>Object_C__c.Object_B__c</members>
+		<name>CustomField</name>
+	</types>
+	<types>
+		<members>Object_A__c</members>
+		<members>Object_B__c</members>
+		<members>Object_C__c</members>
+		<name>CustomObject</name>
+	</types>
+	<types>
+		<members>Object_A__c</members>
+		<members>Object_B__c</members>
+		<members>Object_C__c</members>
+		<name>CustomTab</name>
+	</types>
+	<types>
+		<members>Object_A_Record_Page</members>
+		<name>FlexiPage</name>
+	</types>
+	<types>
+		<members>Object_A__c-Object A Layout</members>
+		<members>Object_B__c-Object B Layout</members>
+		<members>Object_C__c-Object C Layout</members>
+		<name>Layout</name>
+	</types>
+	<types>
+		<members>relatedRecordsDatatable</members>
+		<name>LightningComponentBundle</name>
+	</types>
+	<types>
+		<members>Object_A__c.All</members>
+		<members>Object_B__c.All</members>
+		<members>Object_C__c.All</members>
+		<name>ListView</name>
+	</types>
+	<types>
+		<members>Object_A__c</members>
+		<members>Object_B__c</members>
+		<members>Object_C__c</members>
+		<name>TopicsForObjects</name>
+	</types>
+	<version>53.0</version>
+</Package>
